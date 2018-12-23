@@ -2,6 +2,7 @@ package ba.unsa.etf.rpr.tutorijal10;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Menu;
 import javafx.scene.control.MenuItem;
 import net.sf.jasperreports.engine.JRException;
 
