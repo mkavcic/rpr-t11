@@ -16,8 +16,10 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
+        GeografijaDAO model=GeografijaDAO.getInstance();
         ResourceBundle bundle = ResourceBundle.getBundle("Translation");
         FXMLLoader loader = new FXMLLoader( getClass().getResource("gradovi.fxml" ), bundle);
+        loader.setController(new GradoviController(model));
         Parent root=loader.load();
         primaryStage.setTitle("Gradovi");
         primaryStage.setScene(new Scene(root, 600, 400));

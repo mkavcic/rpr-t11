@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane prefHeight="259.0" prefWidth="478.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.unsa.etf.rpr.tutorijal10.GradoviController">
+<AnchorPane prefHeight="259.0" prefWidth="478.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <VBox layoutX="15.0" layoutY="30.0" prefHeight="200.0" prefWidth="448.0">
          <children>
@@ -15,6 +15,7 @@
                 <Menu mnemonicParsing="false" text="File">
                   <items>
                     <MenuItem mnemonicParsing="false" text="Close" />
+                        <MenuItem id="printBtn" fx:id="printBtn" mnemonicParsing="false" text="Print" onAction="#stampajGradove"/>
                   </items>
                 </Menu>
                 <Menu mnemonicParsing="false" text="Edit">
