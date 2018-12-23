@@ -1,6 +1,9 @@
 package ba.unsa.etf.rpr.tutorijal10;
 
 
+import javafx.event.ActionEvent;
+import net.sf.jasperreports.engine.JRException;
+
 import java.sql.*;
 import java.util.ArrayList;
 
@@ -265,6 +268,15 @@ public class GeografijaDAO {
         }
         geografijaDAO = null;
     }
+
+    public void stampajKnjige() {
+        try {
+            new GradoviReport().showReport(model.getConn());
+        } catch (JRException e1) {
+            e1.printStackTrace();
+        }
+    }
+
 
 
 }
