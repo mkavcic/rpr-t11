@@ -17,7 +17,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         ResourceBundle bundle = ResourceBundle.getBundle("Translation");
-        FXMLLoader loader = new FXMLLoader( getClass().getResource("/gradovi.fxml" ), bundle);
+        FXMLLoader loader = new FXMLLoader( getClass().getResource("gradovi.fxml" ), bundle);
         Parent root=loader.load();
         primaryStage.setTitle("Gradovi");
         primaryStage.setScene(new Scene(root, 600, 400));
@@ -28,7 +28,6 @@ public class Main extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-}
 
     public static void glavniGrad(){
         System.out.println("Unesite naziv drzave: ");

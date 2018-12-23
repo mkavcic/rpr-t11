@@ -9,6 +9,7 @@ import java.util.ArrayList;
 
 public class GeografijaDAO {
 
+
     private static GeografijaDAO geografijaDAO = null;
 
     private static Connection connection;
@@ -269,14 +270,8 @@ public class GeografijaDAO {
         geografijaDAO = null;
     }
 
-    public void stampajKnjige() {
-        try {
-            new GradoviReport().showReport(model.getConn());
-        } catch (JRException e1) {
-            e1.printStackTrace();
-        }
-    }
 
 
+    public Connection getConn() { return connection; }
 
 }
