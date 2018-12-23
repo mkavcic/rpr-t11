@@ -1,4 +1,4 @@
-package ba.unsa.etf.rpr.tutorijal09;
+package ba.unsa.etf.rpr.tutorijal10;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -6,8 +6,8 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import static ba.unsa.etf.rpr.tutorijal09.Main.createNewDatabase;
-import static ba.unsa.etf.rpr.tutorijal09.Main.createNewTable;
+import static ba.unsa.etf.rpr.tutorijal10.Main.createNewDatabase;
+import static ba.unsa.etf.rpr.tutorijal10.Main.createNewTable;
 
 public class GeografijaDAO {
     ArrayList<Grad> gradovi = new ArrayList<>();

@@ -1,4 +1,4 @@
-package ba.unsa.etf.rpr.tutorijal09;
+package ba.unsa.etf.rpr.tutorijal10;
 
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;

@@ -1,4 +1,4 @@
-package ba.unsa.etf.rpr.tutorijal09;
+package ba.unsa.etf.rpr.tutorijal10;
 
 import java.sql.*;
 import java.util.ArrayList;
