@@ -17,10 +17,12 @@ public class GradoviController {
     public MenuItem french;
     public MenuItem bosnian;
     public MenuItem german;
+    public MenuItem about;
     public Menu file;
     public Menu help;
     public Menu view;
-    public MenuItem jezik;
+    public Menu edit;
+    public Menu jezik;
 
     public GradoviController(GeografijaDAO model) {
         this.model = model;
@@ -53,11 +55,13 @@ public class GradoviController {
                 property = "Translate_bs_BA";
                 break;
         }
+        edit.setText(ResourceBundle.getBundle(property).getString("edit"));
         file.setText(ResourceBundle.getBundle(property).getString("file"));
         help.setText(ResourceBundle.getBundle(property).getString("help"));
         view.setText(ResourceBundle.getBundle(property).getString("view"));
-        jezik.setText(ResourceBundle.getBundle(property).getString("Language"));
-        printBtn.setText(ResourceBundle.getBundle(property).getString("izvjestaj"));
+        about.setText(ResourceBundle.getBundle(property).getString("about"));
+        jezik.setText(ResourceBundle.getBundle(property).getString("language"));
+        printBtn.setText(ResourceBundle.getBundle(property).getString("print"));
         bosnian.setText(ResourceBundle.getBundle(property).getString("bosanski"));
         english.setText(ResourceBundle.getBundle(property).getString("engleski"));
         french.setText(ResourceBundle.getBundle(property).getString("francuski"));

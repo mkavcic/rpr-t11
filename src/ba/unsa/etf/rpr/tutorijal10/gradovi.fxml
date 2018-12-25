@@ -12,25 +12,25 @@
          <children>
             <MenuBar>
               <menus>
-                <Menu id="fileBtn" fx:id="fileBtn" mnemonicParsing="false" text="%file">
+                <Menu id="fileBtn" fx:id="file" mnemonicParsing="false" text="%file">
                   <items>
                     <MenuItem mnemonicParsing="false" text="%close" />
                         <MenuItem id="printBtn" fx:id="printBtn" mnemonicParsing="false" onAction="#stampajGradove" text="%print" />
                   </items>
                 </Menu>
-                <Menu mnemonicParsing="false" text="%edit">
+                <Menu fx:id="edit" mnemonicParsing="false" text="%edit">
                   <items>
                     <MenuItem mnemonicParsing="false" text="%delete" />
                   </items>
                 </Menu>
-                <Menu mnemonicParsing="false" text="%help">
+                <Menu fx:id="help" mnemonicParsing="false" text="%help">
                   <items>
-                    <MenuItem mnemonicParsing="false" text="%about" />
+                    <MenuItem fx:id="about" mnemonicParsing="false" text="%about" />
                   </items>
                 </Menu>
-                  <Menu mnemonicParsing="false" text="%view">
+                  <Menu fx:id="view" mnemonicParsing="false" text="%view">
                     <items>
-                        <Menu mnemonicParsing="false" text="%language">
+                        <Menu fx:id="jezik" mnemonicParsing="false" text="%language">
                           <items>
                               <MenuItem fx:id="english" mnemonicParsing="false" text="%english"  onAction="#promijeni"/>
                               <MenuItem fx:id="german" mnemonicParsing="false" text="%german" onAction="#promijeni" />
