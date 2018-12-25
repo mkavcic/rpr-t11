@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane prefHeight="259.0" prefWidth="478.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="259.0" prefWidth="478.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <VBox layoutX="15.0" layoutY="30.0" prefHeight="200.0" prefWidth="448.0">
          <children>
@@ -30,7 +30,14 @@
                 </Menu>
                   <Menu mnemonicParsing="false" text="%view">
                     <items>
-                      <MenuItem mnemonicParsing="false" text="%language" />
+                        <Menu mnemonicParsing="false" text="%language">
+                          <items>
+                              <MenuItem fx:id="english" mnemonicParsing="false" text="%english"  onAction="#promijeni"/>
+                              <MenuItem fx:id="german" mnemonicParsing="false" text="%german" onAction="#promijeni" />
+                            <MenuItem fx:id="french" mnemonicParsing="false" text="%french" onAction="#promijeni" />
+                              <MenuItem fx:id="bosnian" mnemonicParsing="false" text="%bosnian" onAction="#promijeni" />
+                          </items>
+                        </Menu>
                     </items>
                   </Menu>
               </menus>
