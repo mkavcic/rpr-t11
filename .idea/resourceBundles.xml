@@ -1,29 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ResourceBundleManager">
-    <file url="file://$PROJECT_DIR$/resources/Translation.properties" />
-    <file url="file://$PROJECT_DIR$/resources/Translation_DE.properties" />
-    <file url="file://$PROJECT_DIR$/resources/Translation_FR.properties" />
-    <file url="file://$PROJECT_DIR$/resources/Translation_bs_BA.properties" />
-    <file url="file://$PROJECT_DIR$/resources/Translation_en_GB.properties" />
-    <file url="file://$PROJECT_DIR$/resources/resources/Translation_US.properties" />
-    <file url="file://$PROJECT_DIR$/src/Translation.properties" />
-    <file url="file://$PROJECT_DIR$/src/Translation_bs_BA.properties" />
-    <file url="file://$PROJECT_DIR$/src/Translation_en_GB.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Translation.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Translation_bs_BA.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Translation_en_GB.properties" />
     <custom-resource-bundle>
-      <file value="file://$PROJECT_DIR$/resources/Translation.properties" />
-      <file value="file://$PROJECT_DIR$/resources/Translation_DE.properties" />
-      <file value="file://$PROJECT_DIR$/resources/Translation_FR.properties" />
-      <file value="file://$PROJECT_DIR$/resources/Translation_bs_BA.properties" />
-      <file value="file://$PROJECT_DIR$/resources/Translation_en_GB.properties" />
-      <base-name>Translation</base-name>
-    </custom-resource-bundle>
-    <custom-resource-bundle>
-      <file value="file://$PROJECT_DIR$/src/Translation.properties" />
-      <file value="file://$PROJECT_DIR$/src/Translation_DE.properties" />
-      <file value="file://$PROJECT_DIR$/src/Translation_FR.properties" />
-      <file value="file://$PROJECT_DIR$/src/Translation_bs_BA.properties" />
-      <file value="file://$PROJECT_DIR$/src/Translation_en_GB.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/java/Translation.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/java/Translation_DE.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/java/Translation_FR.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/java/Translation_bs_BA.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/java/Translation_en_GB.properties" />
       <base-name>Translation</base-name>
     </custom-resource-bundle>
   </component>
